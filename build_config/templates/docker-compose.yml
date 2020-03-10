@@ -74,7 +74,7 @@ services:
         #   - TAIGA_PUBLIC_REGISTER_ENABLED=false
         #   - DEFAULT_LANGUAGE="en"
         ports:
-            - 80:80
+            - 83:80
 
         #command: ["nginx", "-g", "daemon off;"]
         depends_on:
