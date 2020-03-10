@@ -1,5 +1,5 @@
 {
-    "api": "http://{{TAIGA_HOSTNAME}}/api/v1/",
+    "api": "http://{{TAIGA_HOSTNAME}}:{{BACKEND_PORT}}/api/v1/",
     "eventsUrl": "ws://{{TAIGA_HOSTNAME}}:{{EVENTS_PORT}}/events",
     "debug": true,
     "publicRegisterEnabled": true,

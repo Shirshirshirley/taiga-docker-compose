@@ -64,8 +64,8 @@ SITES = {
 SITE_ID = "api"
 
 
-MEDIA_URL = "{}://{{TAIGA_HOSTNAME}}/media/".format(_HTTP)
-STATIC_URL = "{}://{{TAIGA_HOSTNAME}}/static/".format(_HTTP)
+MEDIA_URL = "{}://{{TAIGA_HOSTNAME}}:{{BACKEND_PORT}}/media/".format(_HTTP)
+STATIC_URL = "{}://{{TAIGA_HOSTNAME}}:{{BACKEND_PORT}}/static/".format(_HTTP)
 MEDIA_ROOT = '{{BACKEND_MEDIA_CONTAINER}}'
 STATIC_ROOT = '{{BACKEND_STATIC_CONTAINER}}'
 

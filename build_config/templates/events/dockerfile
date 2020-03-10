@@ -17,11 +17,11 @@ WORKDIR /taiga_events
 RUN apt update
 #RUN curl -sL https://deb.nodesource.com/setup_8.x | -E bash -
 #RUN apt install -y nodejs
-RUN apt install -y upstart 
+#RUN apt install -y upstart
 RUN apt install -y systemd systemd-sysv 
 RUN apt install -y software-properties-common
 RUN apt install -y build-essential python-dev python-pip
-RUN apt install -y libzmq-dev libevent-dev 
+#RUN apt install -y libzmq-dev libevent-dev
 # RUN add-apt-repository ppa:roman-imankulov/circus
 # RUN apt-get update
 RUN pip install circus
